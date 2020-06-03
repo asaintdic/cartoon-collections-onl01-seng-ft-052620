@@ -16,6 +16,6 @@ long_planeteer_calls(["two", "go", "industrious", "bop"])
 
 def find_the_cheese(array)
     cheeses = ["cheddar", "gouda", "camembert"]
-  array.find {|b| "#{b}" = "#{cheeses}" }
+  array.find {|b| "#{b}" == "#{cheeses}" }
 end
 find_the_cheese(["crackers", "gouda", "thyme"])
