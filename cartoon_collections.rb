@@ -18,6 +18,6 @@ def find_the_cheese(array)
   cheeses = ["cheddar", "gouda", "camembert"]
   array.find do |b| "#{b}" == "#{cheeses}" 
     end
-    "#{cheeses}"
+    "#{b}"
 end
 find_the_cheese(["crackers", "gouda", "thyme"])
