@@ -14,6 +14,6 @@ def long_planeteer_calls(calls)
 end
 long_planeteer_calls(["two", "go", "industrious", "bop"])
 
-def find_the_cheese
+def find_the_cheese(array)
   
 end
