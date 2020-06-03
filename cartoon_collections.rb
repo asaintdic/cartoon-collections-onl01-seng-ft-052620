@@ -19,4 +19,4 @@ def find_the_cheese(array)
   array.find {|food| food = cheeses}
 end
 end 
-find_the_cheese()
+find_the_cheese(["crackers", "gouda", "thyme"])
